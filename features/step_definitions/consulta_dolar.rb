@@ -15,7 +15,7 @@ Quando(/^acessar a página de Economia$/) do
   sleep 1
 end
 
-Então(/^o valor do dolár deve ser menor que "([^"]*)"$/) do |arg1|
+Então(/^o valor do dolár deve ser menor que$/) do
  find(:xpath, "//*[@id='cambio']/ul/li[1]/p[1]/a").click
  dolar = find(:xpath, "//*[@id='conteudo-principal']/div[1]/div/div[2]/div[1]/table/tbody/tr/td[2]").text
  dolar = dolar.to_f

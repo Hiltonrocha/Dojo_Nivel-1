@@ -12,5 +12,4 @@ Cenário: Consultar valor do dolar
 Dado que eu acesse o site google
 E faça uma busca por "uol"
 Quando acessar a página de Economia
-Então o valor do dolár deve ser menor que "3.20"
-
+Então o valor do dolár deve ser menor que 3.20
