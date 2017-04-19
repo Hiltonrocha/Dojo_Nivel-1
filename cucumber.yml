@@ -1,1 +1,3 @@
 default: --no-source --color --format pretty
+
+regressao: -t @consulta_valor_dolar -f html -o report_regressao.html
